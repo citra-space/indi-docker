@@ -15,4 +15,4 @@ RUN apt-get update && apt-get install -y \
 EXPOSE 7624
 
 ENTRYPOINT ["indiserver", "-v"]
-CMD ["indi_watchdog", "indi_simulator_ccd", "indi_simulator_telescope", "indi_gsc"]
+CMD ["indi_simulator_ccd", "indi_simulator_telescope"]
